@@ -1,0 +1,196 @@
+/* GERAL */
+* {
+	font-family: Verdana, Genova, sans-serif;
+}
+
+body {
+	text-align: center;
+	background-color: #DCDCDC;
+	width: 100%;
+	margin-left: 0;
+}
+
+/* MENU */
+/*
+nav{
+	background-color: #008FEA;
+	box-shadow:0 3px 15px rgba(0,0,0,.15);
+}
+.pos{
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0%;
+	padding: 4px 10px;
+	height: 80px;
+}
+
+nav::after {
+	display: block;
+	content: '';
+	clear: both;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	display: inline;
+	list-style: none;
+}
+
+li a {
+	padding: 67px 50px;
+	margin: 0;
+	border: 0px solid #f00;
+	color: ;
+	
+}
+
+li a:hover {
+    background: #CCC;
+    color: #000; 
+    border-color: #000;
+}
+*/
+
+
+nav {
+	margin: 0 auto;
+	background: #008FEA;
+	box-shadow:0 3px 15px rgba(0,0,0,.15);
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0%;
+}
+
+nav::after {
+	display: block;
+	content: '';
+	clear: both;
+}
+
+nav ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+nav ul li {
+	float: right;
+	position: relative;
+}
+
+nav ul li a {
+	display: block;
+	color: rgba(255, 255, 255, .9);
+	text-decoration: none;
+	padding: 1rem 2rem;
+	border-top: 2px solid transparent;
+	border-bottom: 2px solid transparent;
+	transition: all .3s ease-in-out;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+	background: rgba(0, 0, 0, .15);
+}
+
+nav ul li a:focus {
+	color: white;
+}
+
+nav ul li a:not(:only-child)::after {
+	padding-left: 4px;
+	content: ' ▾';
+}
+
+nav ul li ul li {
+	min-width: 190px;
+}
+
+nav ul li ul li a {
+	background: transparent;
+	color: #555;
+	border-bottom: 1px solid #DDE0E7;
+}
+
+nav ul li ul li a:hover,
+nav ul li ul li a:focus {
+	background: #eee;
+	color: #111;
+}
+
+.dropdown {
+	display: none;
+	position: absolute;
+	background: #fff;
+	box-shadow: 0 4px 10px rgba(10, 20, 30, .4);
+}
+
+/* CONTEUDO */
+
+.cont1 {
+	align-items: center;
+	padding-top: 100px;
+	background-color: ;
+	height: 750px;
+	width: 100%
+}
+
+.cont2 {
+	background-color: red;
+	left: 0;
+	right: 0;
+	height: 300px;
+}
+
+.cont3 {
+	background-color: red;
+	left: 0;
+	right: 0;
+	height: 750px;
+}
+
+
+.cont4 {
+	background-color: red;
+	left: 0;
+	right: 0;
+	height: 750px;
+}
+
+.horario1 {
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	border-style: solid;
+	margin-left: 10%;
+}
+
+.horario2 {
+	width: 300px;
+	height: 300px;
+	background-color: yellow;
+	position: absolute;
+	margin-left: 350px;
+}
+
+.horario3 {
+	width: 300px;
+	height: 300px;
+	background-color: yellow;
+	position: absolute;
+	margin-left: 700px;
+}
+
+h1 {
+	color: blue;
+}
+
+img.game {
+	position: 50%;
+}

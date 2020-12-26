@@ -1,0 +1,18 @@
+<html>
+
+<head>
+<title>Pagina de Teste</title>
+
+<link rel="stylesheet" type"text/css" href="style.css">
+</head>
+
+<body>
+
+	<h1>Olá, tudo bem?</h1>
+	<p> 
+		Este é somente uma página de teste
+	</p>
+	
+</body>
+
+</html>
