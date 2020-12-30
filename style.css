@@ -46,12 +46,12 @@ li a {
 	margin: 0;
 	border: 0px solid #f00;
 	color: ;
-	
+
 }
 
 li a:hover {
     background: #CCC;
-    color: #000; 
+    color: #000;
     border-color: #000;
 }
 */
@@ -105,7 +105,7 @@ nav ul li a:focus {
 
 nav ul li a:not(:only-child)::after {
 	padding-left: 4px;
-	content: ' ▾';
+	content: '▾';
 }
 
 nav ul li ul li {
@@ -136,60 +136,78 @@ nav ul li ul li a:focus {
 .cont1 {
 	align-items: center;
 	padding-top: 100px;
-	background-color: ;
 	height: 750px;
-	width: 100%
+	width: 100%;
+	background-image: url(img/bg1.jpeg);
 }
 
 .cont2 {
-	background-color: red;
-	left: 0;
-	right: 0;
-	height: 300px;
+	width: 100%;
+	height: 500px;
 }
 
 .cont3 {
-	background-color: red;
-	left: 0;
-	right: 0;
-	height: 750px;
+	width: 100%;
+	height: 500px;
+	background-image: url(img/dbd2.jpg);
+	text-align: right;
+}
+
+.texto1 {
+	float: center;
+	width: 800px;
+	height: 450px;
+	margin: 25px 25px;
+	display: inline-block; // dispor igualmente na linha
+	display: inline;; *zoom:1; // suporte para iE
+	border-style: solid;
+	border-radius: 25px;
+	text-align: center;
+}
+
+.texto2 {
+	background-color: #DCDCDC;
+	opacity: 85%;
+	left: 50%;
 }
 
 
 .cont4 {
-	background-color: red;
-	left: 0;
-	right: 0;
-	height: 750px;
+	width: 100%;
+	height: 800px;
+	background-image: url(img/fallfundo.jpg);
+	background-size: cover;
+
 }
 
-.horario1 {
+.box {
+	float: center;
 	width: 300px;
 	height: 300px;
-	position: absolute;
+	margin: 25px 25px;
+	display: inline-block; // dispor igualmente na linha
+	display: inline;; *zoom:1; // suporte para iE
 	border-style: solid;
-	margin-left: 5%;
+	border-radius: 20%;
 }
 
-.horario2 {
-	width: 300px;
-	height: 300px;
-	background-color: yellow;
-	position: absolute;
-	margin-left: 350px;
+.boxbg {
+	background-color: #DCDCDC;
+	opacity: 85%;
 }
 
-.horario3 {
-	width: 300px;
-	height: 300px;
-	background-color: yellow;
-	position: absolute;
-	margin-left: 700px;
+/*
+.boxtitle {
+	float: center;
+	width: 400px;
+	height: 75px;
+	margin: 25px 25px;
+	border-style: solid;
+	border-radius: 25px;
+	position: relative;
+	display: inline-block;
 }
-
-h1 {
-	color: blue;
-}
+*/
 
 img.game {
 	position: 50%;

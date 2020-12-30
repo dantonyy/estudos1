@@ -1,57 +1,119 @@
 <!DOCTYPE html>
+<html lang="pt-br">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
 <head>
+	<meta charset="utf-8">
+	<title>YnotoSite </title>
+	<link rel="sortcut icon" href="img/icone.ico" type="image/ico" />
 
-<title>YnotoSite </title>
-
-<link rel="stylesheet" type"text/css" href="style.css">
-<link rel="sortcut icon" href="img/logo.png" type="image/png" />
-
+	<link rel="stylesheet" type"text/css" href="style.css">
+	<link rel="stylesheet" type"text/css" href="slideshow.css">
+	<script type="text/javascript" src="slideshow.js"></script>
 </head>
 
 <body>
 <nav class="menu pos">
 	<ul>
-		<li><a href="#">PARCEIROS</a></li>
 		<li><a href="#horarios">HORÁRIOS</a></li>
-		<li><a href="#">STREAM</a></li>
-		<li><a href="#sobre">SOBRE</a></li>		
-		<li><a href="#jogos">JOGOS</a></li>		
+		<li><a href="#stream">STREAM</a></li>
+		<li><a href="#jogos">JOGOS</a></li>
 		<li><a href="#inicio">INÍCIO</a></li>
-					
 	</ul>
 </nav>
 
 <div class="cont1" id="inicio">
-	
 	<img src="img/logo.png" alt=""width="500px" height="500ox" class="game">
 	<h1>YNOTO</h1>
-	<p> 
+	<p>
 		Streaming everyday what i love.
 	</p>
-</div>	
+</div>
 
 <div class="cont2" id="jogos">
-	<h2>Jogos</h2>
-	<img src="img/dbd.png" 			alt="Dead by Daylight" 		width="200px" height="200px">
-	<img src="img/lol.png" 			alt="League of Legends" 	width="200px" height="200px">
-	<img src="img/valorant.png" 	alt="Valorant" 				width="200px" height="200px">
-	<img src="img/fortnite.png" 	alt="Fortnite" 				width="200px" height="200px">
-	<img src="img/fallguys.png" 	alt="Fall Guys" 				width="200px" height="200px">
-</div>
+	<figure>
+   <span class="trs next"></span>
+   <span class="trs prev"></span>
 
-<div class="cont3" id="sobre">
-<h1>SOBRE</h1>
-</div>
+   <div id="slider">
+      <a href="#" class="trs"><img src="img/slide1.jpg" alt="Dead by Daylight" /></a>
+      <a href="#" class="trs"><img src="img/slide2.jpg" alt="League of Legends" /></a>
+			<a href="#" class="trs"><img src="img/slide3.jpg" alt="Valorant" /></a>
+			<a href="#" class="trs"><img src="img/slide4.jpg" alt="Fortnite" /></a>
+			<a href="#" class="trs"><img src="img/slide5.jpg" alt="FallGuys" /></a>
+   </div>
 
+   <figcaption></figcaption>
+</figure>
+</div>
+<!--
+<div class="cont3" id="stream">
+	<div class="texto1 texto2">
+			<h1>ME ACOMPANHE NA TWITCH</h1>
+	</div>
+</div>
+-->
 <div class="cont4" id="horarios">
-<h1>HORÁRIO DAS LIVES</h1>
+	</br>
+	<div class="boxtitle boxbg">
+		<h1 class="live">HORÁRIO DAS LIVES</h1>
+	</div>
+	<div class="box boxbg">
+		<p></p>
+		<img src="img/calendar.png" alt="Calendar" width="40px" height="40px">
+		<h3>SEGUNDA-FEIRA</h3>
+		<p>19:00 - 21:00</p>
+		<h1>Dead by Daylight</h1>
+	</div>
 
-<div class="horario1">SEGUNDA-FEIRA</div>
+	<div class="box boxbg">
+		<p></p>
+		<img src="img/calendar.png" alt="Calendar" width="40px" height="40px">
+		<h3>TERÇA-FEIRA</h3>
+		<p>19:00 - 21:00</p>
+		<h1>Dead by Daylight</h1>
+	</div>
 
-<div class="horario2">TERÇA</div>
+	<div class="box boxbg">
+		<p></p>
+		<img src="img/calendar.png" alt="Calendar" width="40px" height="40px">
+		<h3>QUARTA-FEIRA</h3>
+		<p>19:00 - 21:00</p>
+		<h1>Dead by Daylight</h1>
+	</div>
 
-<div class="horario3">QUARTA</div>
+	<div class="box boxbg">
+		<p></p>
+		<img src="img/calendar.png" alt="Calendar" width="40px" height="40px">
+		<h3>QUINTA-FEIRA</h3>
+		<p>19:00 - 21:00</p>
+		<h1>Dead by Daylight</h1>
+	</div>
 
+	<div class="box boxbg">
+		<p></p>
+		<img src="img/calendar.png" alt="Calendar" width="40px" height="40px">
+		<h3>SEXTA-FEIRA</h3>
+		<p>19:00 - 21:00</p>
+		<h1>Dead by Daylight</h1>
+	</div>
+
+	<div class="box boxbg">
+		<p></p>
+		<img src="img/calendar.png" alt="Calendar" width="40px" height="40px">
+		<h3>SÁBADO</h3>
+		<p>19:00 - 21:00</p>
+		<h1>Dead by Daylight</h1>
+	</div>
+
+	<div class="box boxbg">
+		<p></p>
+		<img src="img/calendar.png" alt="Calendar" width="40px" height="40px">
+		<h3>DOMINGO</h3>
+		<p>19:00 - 21:00</p>
+		<h1>Dead by Daylight</h1>
+	</div>
 </div>
+
 </body>
+</html>
